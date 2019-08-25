@@ -11,6 +11,7 @@ public class TestBase {
   @BeforeClass
   public  void setUp(){
     driver = new ChromeDriver();
+    //add default wait for WebElement
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     driver.manage().window().maximize();
     //open site
