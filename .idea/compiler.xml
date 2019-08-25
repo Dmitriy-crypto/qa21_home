@@ -2,8 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="first-selenium-project.main" target="1.8" />
+      <module name="first-selenium-project.test" target="1.8" />
       <module name="first-selenium-project_main" target="1.8" />
       <module name="first-selenium-project_test" target="1.8" />
+      <module name="wiki-web-tests.main" target="1.8" />
+      <module name="wiki-web-tests.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
