@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502263fd-046f-40aa-8271-407ff3686c3a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/first-selenium-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/first-selenium-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/first-selenium-project_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/first-selenium-project_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/first-selenium-project_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/first-selenium-project_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-selenium-project/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/first-selenium-project/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/SearchTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/classes/LoginTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/classes/LoginTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/TEST-LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/TEST-LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +42,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="wiki-web-tests" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -65,7 +66,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/first-selenium-project/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -91,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTests">
+  <component name="RunManager" selected="Gradle.Tests in 'wiki-web-tests.test'">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -164,6 +165,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'wiki-web-tests.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/wiki-web-tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -203,6 +224,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'wiki-web-tests.test'" />
         <item itemvalue="TestNG.SearchTests" />
         <item itemvalue="Gradle.LoginTest" />
         <item itemvalue="Gradle.LoginTest.loginTest" />
