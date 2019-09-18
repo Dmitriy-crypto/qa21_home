@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-18T18:22:54" hostname="Lena-Toshiba" time="3.832">
+  <properties/>
+  <testcase name="searchWikiTestQA" classname="SearchTests" time="1.646"/>
+  <testcase name="searchWikiTestJava" classname="SearchTests" time="2.179"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

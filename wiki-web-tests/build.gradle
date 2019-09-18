@@ -16,6 +16,17 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 }
 
-test{
-    useTestNG()
+task wikiLoginTest (type:Test){
+    useTestNG{
+        suites 'src/test/resources/testng-login.xml'
+    }
+}
+task SearchTest (type:Test){
+    useTestNG{
+        suites 'src/test/resources/testng-search.xml'
+    }
+
+    test{
+        useTestNG()
+    }
 }
