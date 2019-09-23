@@ -3,7 +3,7 @@
 <suite name="Regression" verbose="1" >
     <test name="Regression_wiki" >
         <classes>
-            <class name="SearchTests" />
+            <class name="com.wiki.tests.SearchTests" />
         </classes>
     </test>
 

@@ -1,12 +1,14 @@
 package com.wiki.tests;
 
 import com.wiki.fw.ApplicationManager;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 
 public class TestBase {
-  protected static ApplicationManager app = new ApplicationManager();
+  protected static ApplicationManager app =
+          new ApplicationManager(System.getProperty("browser", BrowserType.EDGE));
 
   @BeforeSuite
   public  void setUp(){
