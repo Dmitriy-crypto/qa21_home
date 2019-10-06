@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="502263fd-046f-40aa-8271-407ff3686c3a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/classes/com.wiki.tests.LoginTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/classes/com.wiki.tests.SearchTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/packages/com.wiki.tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/TEST-com.wiki.tests.LoginTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/TEST-com.wiki.tests.SearchTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/wikiLoginTest/classes/com.wiki.tests.LoginTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/wikiLoginTest/classes/com.wiki.tests.LoginTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/wikiLoginTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/wikiLoginTest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/wikiLoginTest/packages/com.wiki.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/wikiLoginTest/packages/com.wiki.tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/wikiLoginTest/TEST-com.wiki.tests.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/test-results/wikiLoginTest/TEST-com.wiki.tests.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/wikiLoginTest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/test-results/wikiLoginTest/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
