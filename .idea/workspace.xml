@@ -3,36 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="502263fd-046f-40aa-8271-407ff3686c3a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/ApplicationManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/ArticleHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/HelperBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/SearchTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/SessionHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/SearchTest/classes/SearchTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/SearchTest/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/SearchTest/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/SearchTest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/SearchTest/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/SearchTest/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/classes/LoginTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/classes/SearchTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/resources/test/MyHome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/resources/test/MyHome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/resources/test/testng-login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/resources/test/testng-login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/resources/test/testng-search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/resources/test/testng-search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/SearchTest/TEST-SearchTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/SearchTest/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/SearchTest/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/SearchTest/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/TEST-LoginTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/TEST-SearchTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/classes/com.wiki.tests.LoginTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/classes/com.wiki.tests.SearchTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/reports/tests/test/packages/com.wiki.tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/TEST-com.wiki.tests.LoginTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/TEST-com.wiki.tests.SearchTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/test-results/test/binary/results.bin" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trello_Elena" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
