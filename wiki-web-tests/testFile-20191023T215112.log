@@ -1,0 +1,4 @@
+6645 [main] INFO  com.wiki.tests.TestBase - start test searchWikiTestQA
+7374 [main] INFO  com.wiki.tests.TestBase - stop test searchWikiTestQA
+7382 [main] INFO  com.wiki.tests.TestBase - start test searchWikiTestJava
+7636 [main] INFO  com.wiki.tests.TestBase - stop test searchWikiTestJava

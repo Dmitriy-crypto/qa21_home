@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wiki.tests.SearchTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-23T19:06:16" hostname="Lena-Toshiba" time="0.951">
+  <properties/>
+  <testcase name="searchWikiTestQA" classname="com.wiki.tests.SearchTests" time="0.951"/>
+  <system-out><![CDATA[22:06:16.222 [Test worker] INFO  com.wiki.tests.TestBase - start test searchWikiTestQA
+22:06:17.186 [Test worker] INFO  com.wiki.fw.HelperBase - screenshot is: screenshot1571857576999.png
+22:06:17.192 [Test worker] INFO  com.wiki.tests.TestBase - stop test searchWikiTestQA
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

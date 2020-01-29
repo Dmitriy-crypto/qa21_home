@@ -8,8 +8,8 @@ public class ArticleHelper extends  HelperBase {
     super(driver);
   }
 
-  public void typeRequest(String request) {
-    type(By.name("search"), request);
+  public void typeRequest(ArticleData articleData) {
+    type(By.name("search"), articleData.getRequest());
   }
 
   public void clickGoButton() {

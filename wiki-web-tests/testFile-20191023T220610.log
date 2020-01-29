@@ -1,0 +1,3 @@
+22:06:16.222  INFO  com.wiki.tests.TestBase - start test searchWikiTestQA
+22:06:17.186  INFO  com.wiki.fw.HelperBase - screenshot is: screenshot1571857576999.png
+22:06:17.192  INFO  com.wiki.tests.TestBase - stop test searchWikiTestQA

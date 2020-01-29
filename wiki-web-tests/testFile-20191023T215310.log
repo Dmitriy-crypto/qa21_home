@@ -1,0 +1,4 @@
+21:53:16.437  INFO  com.wiki.tests.TestBase - start test searchWikiTestQA
+21:53:17.379  INFO  com.wiki.tests.TestBase - stop test searchWikiTestQA
+21:53:17.388  INFO  com.wiki.tests.TestBase - start test searchWikiTestJava
+21:53:17.657  INFO  com.wiki.tests.TestBase - stop test searchWikiTestJava

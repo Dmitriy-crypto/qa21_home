@@ -1,13 +1,22 @@
 package com.wiki.fw;
 
+import com.google.common.io.Files;
+import com.wiki.tests.TestBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.File;
+import java.io.IOException;
 
 public class HelperBase {
   WebDriver driver;
-
+  Logger logger = LoggerFactory.getLogger(HelperBase.class);
   public HelperBase(WebDriver driver) {
     this.driver = driver;
   }
@@ -35,4 +44,10 @@ public class HelperBase {
   public boolean isElementPresent(By locator) {
     return driver.findElements(locator).size()>0;
   }
+public void takeScreenshot() throws IOException {
+  File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+File screenshot = new File("screenshot"+ System.currentTimeMillis()+".png");
+  Files.copy(tmp, screenshot);
+  logger.info("screenshot is: " + screenshot);
+}
 }
