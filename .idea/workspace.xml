@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502263fd-046f-40aa-8271-407ff3686c3a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/wiki-web-tests.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wiki-web-tests.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/wiki-web-tests.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wiki-web-tests.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/com/wiki/fw/ArticleHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/com/wiki/fw/ArticleHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/com/wiki/fw/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/com/wiki/fw/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/com/wiki/tests/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/com/wiki/tests/SearchTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/com/wiki/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/build/classes/java/test/com/wiki/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/ArticleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/ArticleHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/tests/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/fw/SessionHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/wiki-web-tests/src/test/java/com/wiki/tests/TestBase.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +54,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -79,19 +80,7 @@
       <recent name="C:\Users\Elena\Documents\GitHub\qa21_home\wiki-web-tests" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Gradle.SearchTests.searchWikiTestQA">
+  <component name="RunManager" selected="Gradle.LoginTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -103,6 +92,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/wiki-web-tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.wiki.tests.LoginTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanWikiLoginTest" />
+            <option value=":wikiLoginTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SearchTests.searchWikiTestQA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -162,17 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Elena/Documents/GitHub/qa21_home/wiki-web-tests/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="wiki-web-tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/wiki-web-tests/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wiki-web-tests.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -205,13 +203,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTest" />
         <item itemvalue="Gradle.SearchTests.searchWikiTestQA" />
         <item itemvalue="TestNG.SearchTests" />
         <item itemvalue="Gradle.Tests in 'wiki-web-tests.test'" />
         <item itemvalue="TestNG.C:/Users/Elena/Documents/GitHub/qa21_home/wiki-web-tests/src/test/resources/MyHome.xml" />
-        <item itemvalue="TestNG.C:/Users/Elena/Documents/GitHub/qa21_home/wiki-web-tests/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -238,5 +248,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1580321620221">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="317" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1580321620221" />
+    <state width="964" height="18" key="GridCell.Tab.0.bottom" timestamp="1580334238918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="964" height="7" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1580322292499" />
+    <state width="964" height="18" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580334238918" />
+    <state width="964" height="18" key="GridCell.Tab.0.center" timestamp="1580334238918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="964" height="7" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1580322292498" />
+    <state width="964" height="18" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580334238918" />
+    <state width="964" height="18" key="GridCell.Tab.0.left" timestamp="1580334238918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="964" height="7" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1580322292498" />
+    <state width="964" height="18" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580334238918" />
+    <state width="964" height="18" key="GridCell.Tab.0.right" timestamp="1580334238918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="964" height="7" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1580322292499" />
+    <state width="964" height="18" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580334238918" />
   </component>
 </project>

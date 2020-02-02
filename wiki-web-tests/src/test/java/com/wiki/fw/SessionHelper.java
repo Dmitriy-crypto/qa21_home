@@ -21,7 +21,7 @@ public class SessionHelper extends HelperBase{
   }
 
   public void initLogin() {
-    waitForElementAndClick( By.id("pt-login"),20);
+    waitForElementAndClick( By.id("pt-logi"),20);
     click(By.id("pt-login"));
   }
 
